@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eeb5b5b-dbbb-4fef-8e2a-87528e4a981b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/mentoring 1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;이정원&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;정원&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -73,6 +73,14 @@
       <workItem from="1711879939145" duration="354000" />
       <workItem from="1711880306817" duration="931000" />
       <workItem from="1711883567732" duration="5000" />
+      <workItem from="1711963278365" duration="1243000" />
+      <workItem from="1712020748753" duration="1000" />
+      <workItem from="1712021553216" duration="411000" />
+      <workItem from="1712021975132" duration="75000" />
+      <workItem from="1712022063585" duration="25000" />
+      <workItem from="1712047855459" duration="166000" />
+      <workItem from="1712048042376" duration="27000" />
+      <workItem from="1712048170847" duration="1200000" />
     </task>
     <servers />
   </component>
