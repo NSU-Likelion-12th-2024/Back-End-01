@@ -19,16 +19,7 @@ public class Week01_Ex02 {
 
             result = num <= 3 && num >= 1 ? "정답" : (num == 4 ? "오답" : "다시");    // 삼항 연산자로 결과값 비교
             System.out.println(result);         // 결과값을 출력
-        } while (result.equals("오답") || result.equals("다시"));       // 오답 또는 다시 일때는 위 부분 반복하기
-
-        String[] strings = new String[]{"임채륜", "만나서", "반가워요", "!!!"};
-        Stream<String> stream = Stream.of(strings);
-        Stream<String> stream1 = Stream.of(new String[]{"a", "b", "c"});
-        Stream<String> stream2 = Arrays.stream(strings);
-
-        System.out.println(stream1.count());
-        System.out.println(stream.count());
-        System.out.println(stream2.count());
+        } while (!result.equals("정답"));       // 오답 또는 다시 일때는 위 부분 반복하기
 
     }
 }
