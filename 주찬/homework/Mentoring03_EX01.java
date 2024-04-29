@@ -28,7 +28,7 @@ public class Mentoring03_EX01 {
                 count++; // 성이 같은 사람의 수 증가
             }
         }
-        System.out.println(String.join(", ", sameNames)); // 성이 같은 사람들을 쉼표로 구분하여 출력
+        System.out.println(String.join(", ", sameNames)); // sameNames를 ,로 묶어서 표현
         System.out.println("나와 성이 같은 사람은 총 " + count + "명입니다."); // 성이 같은 사람의 총 수 출력
     }
 }
