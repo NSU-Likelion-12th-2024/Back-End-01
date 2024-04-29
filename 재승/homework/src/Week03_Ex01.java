@@ -1,27 +1,26 @@
+
+
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.logging.Level;
 import java.util.stream.Collectors;
 
 public class Week03_Ex01 {
     public static void main(String[] args) {
-       List<User> users = Arrays.asList(
-        new User("james", 10, 3000),
-        new User("Alice", 20, 4000),
-        new User("Thomas", 15, 3500)
-       );
+        List<User> users = Arrays.asList(
+                new User("james", 10, 3000),
+                new User("Alice", 20, 4000),
+                new User("Thomas", 15, 3500)
+        );
         System.out.println("[user name]");
-      users.stream()
-              .map(User::getName)
-              .forEach(System.out::println);
+        users.stream()
+                .map(User::getName)
+                .forEach(System.out::println);
 
         System.out.println("[user power 합계]");
-       int totalPower = users.stream()
-                       .mapToInt(User::getPower)
-                               .sum();
-       System.out.println(totalPower);
+        int totalPower = users.stream()
+                .mapToInt(User::getPower)
+                .sum();
+        System.out.println(totalPower);
 
         System.out.println("[user level 15 이상]");
         List<String> namesInUpper = users.stream()
