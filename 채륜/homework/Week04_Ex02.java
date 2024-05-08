@@ -38,6 +38,12 @@ class User{
     private int level;
     private int power;
 
+    /**
+     * 생략되어있는 생성자
+     */
+    public User() {
+    }
+
     public User(String name, int level, int power) {
         this.name = name;
         this.level = level;
