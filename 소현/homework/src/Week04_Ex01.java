@@ -20,13 +20,13 @@ public class Week04_Ex01 {
         public int getLevel() {   //레벨 필드의 getter 기능
             return level;
         }
-        public int getPower() {   //파워필드의 getter 기능
+        public int getPower() {   //파워 필드의 getter 기능
             return power;
         }
     }
     public static void main(String[] args) {
         //1. 유저 네임 전체 출력
-        List<User> users = Arrays.asList(          // user 객체들을 리스트로 생성
+        List<User> users = Arrays.asList(          // user 객체들을 리스트로 생성, 각각 새로운 리스트 넣음
                 new User("James", 10, 3000),
                 new User("Alice", 20, 4000),
                 new User("Thomas", 15, 3500)
